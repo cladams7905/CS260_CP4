@@ -28,7 +28,7 @@ const Artist2 = () => {
         </div>
       <div class='footer'>
         <p>Made by Carter Adams and Ken Ruth for CS 260</p>
-        <a href="https://github.com/cladams7905/CS260_CreativeProject1">GitHub Repo</a>
+        <a href="https://github.com/cladams7905/CS260_ReactCLI">GitHub Repo</a>
       </div>
     </>
     );
