@@ -4,6 +4,8 @@ import band from "./images/band.jpeg";
 const Home = () => {
   return (
     <>
+    <div class="main-container"/>
+        <div class='container-fluid'/>
         <div class="img-container">
           <img class="banner-img" src={band} alt="one-republic"/>
           <div class='text-container'>
@@ -12,16 +14,13 @@ const Home = () => {
           </div>
         </div>
         
-        <div class="main-container"/>
-        <div class='container-fluid'/>
-            <h1> <br/> Welcome <br/> </h1>
-            <h4> <br/> Visit this website to see the favorite artists of Carter and Ken. 
+            <h4 class="text-container"> <h1> <br/> Welcome <br/> </h1> <br/> Visit this website to see the favorite artists of Carter and Ken. 
             We have focused on three of them in this website. Hopefully it helps you learn about some new artists and expands your interest! Most of the information about the artists on this website comes from Wikipedia
             and <a href="https://www.theaudiodb.com/api_guide.php">theaudiodb API</a>. <br/><br/> </h4>
       
       <div class='footer'>
         <p>Made by Carter Adams and Ken Ruth for CS 260</p>
-        <a href="https://github.com/cladams7905/CS260_CreativeProject1">GitHub Repo</a>
+        <a href="https://github.com/cladams7905/CS260_ReactCLI">GitHub Repo</a>
       </div>
     </>
       );
