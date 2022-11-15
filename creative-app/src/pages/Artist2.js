@@ -1,12 +1,11 @@
 
 import React from 'react';
-import band2 from "./images/ed-sheeran.jpeg";
 
 const Artist2 = () => {
     return (
         <>
         <div class="img-container">
-            <img class="banner-img" src={band2} alt="ed sheeran" />
+            <img class="banner-img" src="http://ec2-13-57-218-206.us-west-1.compute.amazonaws.com/CS260_CP4/creative-app/public/images/ed-sheeran.jpeg" alt="ed sheeran" />
             <div class='text-container'>
                 <div class="text-centered lg">ED SHEERAN</div>
                 <div class="text-bottom md">One of the most popular artists of our day, Ed Sheeran has been releasing pop hits that have resonated across the globe.</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import band from "./images/band.jpeg";
 
 const Home = () => {
   return (
@@ -7,7 +6,7 @@ const Home = () => {
     <div class="main-container"/>
         <div class='container-fluid'/>
         <div class="img-container">
-          <img class="banner-img" src={band} alt="one-republic"/>
+          <img class="banner-img" src="http://ec2-13-57-218-206.us-west-1.compute.amazonaws.com/CS260_CP4/creative-app/public/images/band.jpeg" alt="one-republic"/>
           <div class='text-container'>
             <div class="text-centered lg">FAVORITE ARTISTS</div>
             <div class="text-bottom md">Favorite Bands for Carter and Ken.</div>
