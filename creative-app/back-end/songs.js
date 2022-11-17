@@ -1,23 +1,23 @@
 const songs = [
   {
-    artist: "Artist",
-    title: "Song 1",
+    artist: "Ed Sheeran",
+    title: "Castle on the Hill",
   },
   {
-    artist: "Artist",
-    title: "Song 2",
+    artist: "One Republic",
+    title: "I Ain't Worried",
   },
   {
-    artist: "Artist",
-    title: "Song 3",
+    artist: "Blake Shelton",
+    title: "Boys 'Round Here",
   },
   {
-    artist: "Artist",
-    title: "Song 4",
+    artist: "Ed Sheeran",
+    title: "Shape of You",
   },
   {
-    artist: "Artist",
-    title: "Song 5",
+    artist: "One Republic",
+    title: "Kids",
   }
 ];
 

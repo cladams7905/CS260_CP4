@@ -26,6 +26,11 @@
 
 .row {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:2px;
 }
 
 .column {
@@ -38,6 +43,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.playlist-form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.playlist-container{
+  padding:1em;
+}
+.playlist-image{
+  width: unset;
+  height: 100px;
+  padding-right:30px;
+}
+.float-right{
+  float:right;
 }
 
 @keyframes App-logo-spin {

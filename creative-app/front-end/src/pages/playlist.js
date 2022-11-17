@@ -52,34 +52,38 @@ const Playlist = () => {
   };
   
     return (
-    <div>
+    <div className="main-container container-fluid">
+        <br/>
         {error}
       <h1>Add a Song</h1>
+      <div className="form-group">
       <form onSubmit={addSong}>
         <div>
-          <label>
+          <div>
             Artist:
-            <input type="text" value={artist} onChange={e => setArtist(e.target.value)} />
-          </label>
+            <input className="form-control" type="text" value={artist} onChange={e => setArtist(e.target.value)} />
+          </div>
         </div>
         <div>
-          <label>
+          <div>
             Title:
-            <textarea value={title} onChange={e=>setTitle(e.target.value)}></textarea>
-          </label>
+            <input className="form-control" value={title} onChange={e=>setTitle(e.target.value)}></input>
+          </div>
         </div>
-        <input type="submit" value="Submit" />
-      </form>
+        <input className="row btn btn-secondary" type="submit" value="Submit" /><br/>
+       </form>
+      </div>
       <h1>Your playlist</h1>
       {songs.map( song => (
-        <div key={song.id} className="ticket">
-          <div className="problem">
-            <p>{song.artist}</p>
-            <p><i>-- {song.title}</i></p>
+        <div key={song.id} className="form-group">
+          <div className="form-control playlist-container">
+            <p><img className='playlist-image' alt="music cover" src="http://ec2-13-57-218-206.us-west-1.compute.amazonaws.com/CS260_CP4/creative-app/front-end/public/images/headphones.jpeg"/> 
+            {song.artist}, "<i>{song.title}</i>" 
+            <button className="btn btn-secondary btn-sm float-right" onClick={e => deleteSong(song)}>Delete</button></p>
           </div>
-          <button onClick={e => deleteSong(song)}>Delete</button>
         </div>
-      ))}  
+      ))}
+      <br/>
     </div>
         );
 };
