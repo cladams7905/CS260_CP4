@@ -77,7 +77,7 @@ const Playlist = () => {
       {songs.map( song => (
         <div key={song.id} className="form-group">
           <div className="form-control playlist-container">
-            <p><img className='playlist-image' alt="music cover" src="http://ec2-13-57-218-206.us-west-1.compute.amazonaws.com/CS260_CP4/creative-app/front-end/public/images/headphones.jpeg"/> 
+            <p><img className='playlist-image' alt="music cover" src={require("../images/headphones.jpeg")}/> 
             {song.artist}, "<i>{song.title}</i>" 
             <button className="btn btn-secondary btn-sm float-right" onClick={e => deleteSong(song)}>Delete</button></p>
           </div>

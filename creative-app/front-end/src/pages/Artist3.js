@@ -6,7 +6,7 @@ const Artist3 = () => {
   return  (
      <>
         <div class="img-container">
-        <img class="banner-img" src="http://ec2-13-57-218-206.us-west-1.compute.amazonaws.com/CS260_CP4/creative-app/front-end/public/images/shelton1.jpg" alt="ed sheeran"/>
+        <img class="banner-img" src= {require("../images/shelton1.jpg")} alt="blake shelton"/>
         <div class='text-container'>
           <div class="text-centered lg">Blake Shelton</div>
           <div class="text-bottom md">One of the more well known country artists who has made many hits since 2001.</div>

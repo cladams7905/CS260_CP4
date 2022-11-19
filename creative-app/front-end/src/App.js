@@ -9,7 +9,7 @@ import Artist3 from "./pages/Artist3";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CS260_CP4/creative-app/front-end/build">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
