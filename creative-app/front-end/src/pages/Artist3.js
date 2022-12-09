@@ -19,6 +19,9 @@ const Artist3 = () => {
           His second and third albums, 2003's The Dreamer and 2004's Blake Shelton's Barn & Grill, are gold and platinum, respectively.[1] His fourth album, Pure BS (2007), was re-issued in 2008 with a cover of Michael Bublé's pop hit "Home" as one of the bonus tracks.[2] His fifth album, Startin' Fires was released in November 2008.[1] It was followed by the extended plays Hillbilly Bone and All About Tonight in 2010, and the albums Red River Blue in 2011,[3] Based on a True Story... in 2013, Bringing Back the Sunshine in 2014, If I'm Honest in 2016, Texoma Shore in 2017, and Fully Loaded: God's Country in 2019. <br/> </p>
         </div>
       </div>
+      <div class="row">
+          <iframe width="560" height="415" src="https://www.youtube.com/embed/JXAgv665J14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       <Playlist/>
       <div class='footer'>
         <p>Made by Carter Adams and Ken Ruth for CS 260</p>

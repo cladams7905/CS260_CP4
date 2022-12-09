@@ -17,6 +17,9 @@ const Artist4 = () => {
           <p><br/> Kane Allen Brown[2][3] (born October 21, 1993)[1] is an American singer. Brown first came to the attention of the public through social media.[4] He released his first EP, titled Closer, in June 2015, and followed it with a new single, "Used to Love You Sober", in October 2015. After Brown signed with RCA Nashville in early 2016, the song was included on his EP Chapter 1, released in March 2016. He released his first full-length album, the self-titled Kane Brown, on December 2, 2016. The single "What Ifs" came from this album, and in October 2017, Brown became the first artist to have simultaneous number ones on all five main Billboard country charts.[5] Brown released his second album, Experiment, in November 2018, which became his first number one album on the Billboard 200.[6] <br/> </p>
         </div>
       </div>
+      <div class="row">
+          <iframe width="560" height="415" src="https://www.youtube.com/embed/dRX0wDNK6S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       <Playlist/>
       <div class='footer'>
         <p>Made by Carter Adams and Ken Ruth for CS 260</p>

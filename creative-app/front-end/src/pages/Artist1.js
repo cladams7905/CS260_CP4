@@ -19,6 +19,9 @@ const Artist1 = () => {
 
 The band achieved its first commercial success on Myspace as an unsigned act.[6] In late 2002, after OneRepublic played shows throughout the Los Angeles area, several record labels approached the band with interest, but the band signed with Velvet Hammer, an imprint of Columbia Records. They made their first album with producer Greg Wells during the summer and fall of 2005 at his studio, Rocket Carousel, in Culver City, California. The album was scheduled for release on June 6, 2006, but the group was dropped by Columbia two months before the album was released. The lead single of that album, "Apologize", was released on April 30, 2006, on Myspace, eventually reaching number one on the Myspace charts. <br/> </p>
         </div>
+        <div class="row">
+          <iframe width="560" height="415" src="https://www.youtube.com/embed/mNEUkkoUoIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
       </div>
       <Playlist/>
       
